@@ -1,0 +1,6 @@
+com\projeto\controller\MovimentoManualController.class
+com\projeto\service\MovimentoManualService.class
+com\projeto\entity\MovimentoManual.class
+com\projeto\controller\GlobalExceptionHandler.class
+com\projeto\repository\MovimentoManualRepository.class
+com\projeto\App.class
