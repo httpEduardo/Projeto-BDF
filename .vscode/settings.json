@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
   "java.configuration.updateBuildConfiguration": "automatic"
+=======
+  "java.compile.nullAnalysis.mode": "automatic"
+>>>>>>> b0188ce (Atualizações no frontend e backend, ajustes no JavaScript e HTML)
 }

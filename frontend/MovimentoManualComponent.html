@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movimentos Manuais</title>
+</head>
+
+<body>
+    <h1>Movimentos Manuais</h1>
+    <form id="formMovimentoManual">
+        <label for="mes">Mês:</label>
+        <input type="number" id="mes" name="mes" required>
+
+        <label for="ano">Ano:</label>
+        <input type="number" id="ano" name="ano" required>
+
+        <label for="produto">Produto:</label>
+        <select id="produto" name="produto">
+            <option value="PROD001">Produto 1</option>
+            <option value="PROD002">Produto 2</option>
+        </select>
+
+        <label for="cosif">Cosif:</label>
+        <select id="cosif" name="cosif">
+            <option value="001">001 - Classificação 1</option>
+            <option value="002">002 - Classificação 2</option>
+        </select>
+
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" required>
+
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" required>
+
+        <button type="button" onclick="habilitarCampos()">Novo</button>
+        <button type="submit">Incluir</button>
+    </form>
+    <div id="grid">
+        <!-- O grid dos movimentos aparecerá aqui -->
+    </div>
+
+    <!-- Mova o script para o final do body -->
+    <script src="habilitarCampos.js"></script>
+</body>
+
+</html>
